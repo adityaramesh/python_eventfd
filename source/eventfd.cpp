@@ -227,7 +227,7 @@ auto event_def = PyTypeObject
 	Py_TPFLAGS_DEFAULT,
 
 	// tp_doc (docstring for the class)
-	"Manages an eventfd resource.",
+	"Manages an eventfd object.",
 
 	// tp_traverse (support for cyclic GC, if needed)
 	nullptr,
