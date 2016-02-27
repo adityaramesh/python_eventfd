@@ -1,0 +1,15 @@
+# OS-specific files
+.DS_Store
+
+# Editor files
+*.swp
+*.vim
+
+# Compiled files
+*.so
+*.pyc
+
+# Packaging files
+/build/
+/dist/
+/*.egg-info
