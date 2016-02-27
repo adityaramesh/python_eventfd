@@ -15,7 +15,7 @@ Adds support for eventfd to Python 3.
 
 # Requirements
 
-Linux kernel version 2.6.30 or higher.
+Linux kernel version 2.6.30 or higher, and a version of g++ or clang++ that is C++14-compliant.
 
 # Installation
 
