@@ -153,8 +153,7 @@ auto event_methods = std::array<PyMethodDef, 5>{{
 ** be changed over the course of execution of the program. When the reference count reaches zero,
 ** the class definition itself will be garbage collected.
 */
-auto event_def = PyTypeObject
-{
+auto event_def = PyTypeObject{
 	/*
 	** The first three fields of ``PyTypeObject`` (after macro expansion) are the following: ::
 	**
